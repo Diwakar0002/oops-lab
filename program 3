@@ -1,0 +1,32 @@
+#include<iostream>
+#include<math.h>
+using namespace std;
+double power(double m, int n=2)
+{
+	return pow (m,n);	
+}
+    
+    int main()
+    {
+    	
+    	double m, res;
+    	int z;
+    	cout<<"enter a digit"<<" ";
+    	cin>>m;
+    	cout<<"enter a digit"<<" ";
+    	cin>>z;
+    	
+    	if(z==0) 
+		{
+		
+		res=power(m);
+		cout<<"the result is"<<" "<<res<<endl;
+		
+		}
+		else{
+			res=power(m,z);
+			cout<<"the result is"<<" "<<res<<endl;
+			
+		}
+		return 0;
+	}
