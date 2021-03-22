@@ -1,0 +1,26 @@
+#include<iostream>
+#include<math.h>
+using namespace  std;
+inline double power(double m,int n)
+{
+	double result ;
+	result=pow(m,n);
+	return result;
+	
+}
+void display(double result,double m,int n)
+{
+	cout<<"\ntherefore("<<m<<")^"<<n<<"answer is ="<<result<<endl<<endl;
+	
+}
+int main()
+{
+	double m,ans;
+	int n;
+	cout<<"\nenter base value m :";
+	cin>>m;
+	cout<<"rnter the power value n :";
+	cin>>n;
+	ans=power(m,n);
+	display(ans,m,n);
+	return 0;}
